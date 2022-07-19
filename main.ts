@@ -202,7 +202,7 @@
 // console.log(namesArray(['avi','asi','ron','lior']))
 
 
-// 12.
+12.
 // function namesList(names:string[]):string{
 //     for(let i = 0; i < names.length;i++){
 //         if(names[i][0] == 'a'){
@@ -213,7 +213,7 @@
 // }
 // console.log(namesList(["roni","tam","tviel","roni","agam","aviel"]))
 
-// 13.
+13.
 // function nums(numsArray:number[]):any{
 //     for(let i =0;i<numsArray.length;i++){
 //     if(numsArray[i]% 2 == 0){
@@ -224,7 +224,7 @@
 // nums([1,20,50,7,3,80])
 
 
-// 14.
+14.
 // function todayDate(holderDate:string):Date{
 //     let thisDate:Date = new Date(holderDate)
 //     return thisDate;
@@ -232,7 +232,75 @@
 // }
 // console.log(todayDate("07/18/2022"))
 
+
 15.
-function someFunc()
+
+// function someFunc(text:string,num:number):any{
+//     for(let i =0; i <num;i++){
+//       console.log( text);
+//     }
+// }
+// someFunc("avi",5)
+
+16.
+
+// function getDeatails(name:string,age:number):any{
+ 
+//      if(age>18){
+//      console.log( `wellcome ${name}`)
+//  }
+//  else{
+//       console.log(`No enter ${name}`)
+//  }
+// }
+
+// getDeatails("avi",2)
+
+17.
+// function getNames(firstName:string,lastName:string):any{
+//     if(firstName.substring(0,1) == lastName.substring(0,1)){
+//     console.log(firstName.substring(0,1));
+// }
+// else{
+//    console.log(0);
+// }
+// }
+
+// getNames("avi","asi");
+
+18.
+
+// function arrayFunc(someArray:any[]):any{
+// switch(someArray.length){
+//     case 1:
+//     console.log("no data")
+//     return;
+//     case 2:
+//     console.log("one data")
+//     return;
+//     default:
+//     console.log("there is many values")
+//     return;
+// }
+// }
+// arrayFunc([10,"luffy"])
+
+19.
+// function funcArray(numArray:number[],someT:String):any{
+//     switch(someT){
+//         case "reverse":
+//         return numArray.reverse();
+//            case "2":
+//         return numArray.sort((a,b)=>a-b);
+//             case "3":
+//         return numArray.sort((a,b)=>b-a);
+//         default:
+//         return numArray.toString().split(",");
+//     }
+// }
+// console.log(funcArray([2,3,42,5],"ONE PIECE"));
+
+
+
 
 
