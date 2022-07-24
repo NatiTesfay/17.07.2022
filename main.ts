@@ -343,6 +343,40 @@
 // }
 // console.log(userDeatails("dalia" , "zagaya"))
 
+26.
+
+// function getText(text:string,textT?:string,num:number=1):void {
+//     while (num > 0) {
+//         console.log(text,textT)
+//         num--;
+//     }
+// }
+// getText("netanel","hi",7)
+
+
+27.
+
+// function someNumbers(...num:number[]):void{
+ 
+//     num.sort()
+
+// }
+// someNumbers(5,54,70)
+
+28.
+// function someNums(...num:number[]):void{
+//     num.sort((a,b)=>a-b)
+
+// }
+// someNums(10,5,20)
+
+29.
+// function someNums(...num:number[]):void{
+//     num.sort((a,b)=>b-a)
+
+// }
+// someNums(10,5,20)
+
 
 
 
